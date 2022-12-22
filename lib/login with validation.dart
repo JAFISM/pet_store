@@ -46,7 +46,7 @@ class _LoginFormState extends State<LoginForm> {
                 obscureText: showpass,
                 obscuringCharacter: '*',
                 decoration: InputDecoration(
-                    prefixIcon: Icon(Icons.visibility_off),
+                    prefixIcon: Icon(Icons.password),
                     suffixIcon: IconButton(
                       onPressed: () {
                         setState(() {
